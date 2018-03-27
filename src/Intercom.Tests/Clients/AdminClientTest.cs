@@ -32,7 +32,7 @@ namespace Intercom.Test
         [Test()]
         public void View_NoId_ThrowException()
         {
-            Assert.Throws<ArgumentNullException>(() => adminsClient.View(new Admin()));
+            Assert.Throws<ArgumentException>(() => adminsClient.View(new Admin()));
         }
     }
 }

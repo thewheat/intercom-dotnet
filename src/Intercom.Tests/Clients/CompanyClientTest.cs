@@ -34,7 +34,7 @@ namespace Intercom.Test
             Dictionary<string, object> custom_attributes = new Dictionary<string, object>();
 
             for (int i = 0; i < 105; i++)
-                custom_attributes.Add("field", "value");
+                custom_attributes.Add("field" + i, "value");
 
             Assert.Throws<ArgumentException>(() => 
             {

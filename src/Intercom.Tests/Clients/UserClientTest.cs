@@ -37,13 +37,13 @@ namespace Intercom.Test
         [Test()]
         public void Delete_NoIdOrUserIdOrEmail_ThrowException()
         {
-            Assert.Throws<ArgumentNullException>(() => usersClient.Delete(new User()));
+            Assert.Throws<ArgumentException>(() => usersClient.Delete(new User()));
         }
 
         [Test()]
         public void Update_NoIdOrUserIdOrEmail_ThrowException()
         {
-            Assert.Throws<ArgumentNullException>(() => usersClient.Update(new User()));
+            Assert.Throws<ArgumentException>(() => usersClient.Update(new User()));
         }
     }
 }

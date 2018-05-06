@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Intercom.Dotnet.Client</id>
-    <title>Intercom Dotnet Client</title>
+    <id>org.thewheatfield.dotnet.nuget.test2</id>
+    <title>org.thewheatfield.dotnet.nuget.test2</title>
     <version>2.0.2</version>
     <authors>Intercom</authors>
     <owners>Intercom</owners>

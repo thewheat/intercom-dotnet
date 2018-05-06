@@ -3,15 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ReleaseVersion>2.0.0</ReleaseVersion>
-    <PackageId>Intercom.Dotnet.Client</PackageId>
-    <PackageVersion>2.0.0</PackageVersion>
-    <PackageIconUrl>https://raw.githubusercontent.com/intercom/intercom-dotnet/master/src/assets/Intercom.png</PackageIconUrl>
-    <Owners>Intercom</Owners>
-    <PackageProjectUrl>https://github.com/intercom/intercom-dotnet</PackageProjectUrl>
-    <Summary>The official Intercom API client library for .NET</Summary>
-    <Title>Intercom Dotnet Client</Title>
-    <Description>The official Intercom API client library for .NET</Description>
+    <PackageId>org.thewheatfield.dotnet.nuget.test2</PackageId>
+    <PackageVersion>2.0.1</PackageVersion>
+    <Owners>tim</Owners>
+    <Title>org.thewheatfield.dotnet.nuget.test2</Title>
+    <Description>org.thewheatfield.dotnet.nuget.test2</Description>
     <PackOnBuild>true</PackOnBuild>
+    <Authors>-</Authors>
   </PropertyGroup>
 
   <ItemGroup>
